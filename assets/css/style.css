@@ -1,0 +1,69 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    background: rgb(136, 136, 223);
+    height: 200vh;
+}
+header{
+    position: fixed; 
+    width: 100%;
+    top: 0;
+    z-index:100;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aqua;
+    
+
+}
+nav {
+    position: fixed; 
+    width: 100px;
+    height: 1000px;
+    top: 0;
+    background: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+}
+.content {
+margin-left: 120px;
+margin-top: 100px;
+}
+
+
+
+
+.divider {
+    height: 50px;
+  }
+  
+  .divider-width {
+    width: 10px;
+  }
+  
+  .divider-small {
+    height: 20px;
+  }
+  
+  .divider-large {
+    height: 75vh;
+  }
+  
+  .divider-medium {
+    height: 20vh;
+  }
+  
+  .divider-small-vh {
+    height: 10vh;
+  }
+  
+  .divider-smaller-vh {
+    height: 4vh;
+  }
+  
+  .divider-smallest-vh {
+    height: 2vh;
+  }
