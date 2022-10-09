@@ -6,11 +6,12 @@ body {
     background: #d3d0cb;
     height: 200vh;
     margin-left: 0;
+    margin-top: 
 
 
 }
 header {
-    position: fixed; 
+    position:fixed; 
     width: 100%;
     top: 0;
     z-index:100;
@@ -25,7 +26,7 @@ header {
 nav {
     position: fixed; 
     width: 150px;
-    height: 100vh;
+    height: 1000vh;
     margin-top: 80px;
     padding-top: 20px;
     top: 0;
@@ -35,28 +36,37 @@ nav {
     justify-content: center;
     text-align: center;    
 }
+.links a + p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 
 .content {
 margin-left: 170px;
-margin-top: 7vh;
+margin-top: 90px;
+;
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 500px) {
+  nav {
+
+    position: fixed;
+    flex-direction: column;
+    width: 500px;
+    height: 70px;
+    margin-top: 80px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;  
     
-    main,
-    
-    }
-    
-    aside {
-      order: 2;
-    }
- 
-    header {
-      background:
+  }
+  
+  }
+  
 }
-    
-    
-    
   
 
 
