@@ -1,15 +1,16 @@
 
+html {
+  scroll-behavior: smooth;
+}
 body {
     font-family:'Courier New', Courier, monospace;
     color:#465362;
     display: block;
     background: #d3d0cb;
     height: 200vh;
-    margin-left: 0;
-    margin-top: 
+    margin-left: 0; 
+  }
 
-
-}
 header {
     position:fixed; 
     width: 100%;
@@ -21,8 +22,15 @@ header {
     background-color: #465362;
     padding-left: 35px;
     color: #d3d0cb;
-
 }
+
+header:hover {
+  background: black;
+  -webkit-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+
 nav {
     position: fixed; 
     width: 150px;
@@ -36,10 +44,7 @@ nav {
     justify-content: center;
     text-align: center;    
 }
-.links a + p {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+
 
 
 .content {
@@ -64,11 +69,27 @@ margin-top: 90px;
     
   }
   
-  }
-  
 }
-  
 
+
+.links a {
+  color: #465362;
+  text-decoration: none;
+}
+
+.links p {
+margin-top: 40px;
+margin-bottom: 80px;
+}
+
+.links p:hover{
+color: black;
+}
+
+h2{
+  margin-top: px;
+  margin-bottom: 16px;
+}
 
 .divider {
     height: 40px;
