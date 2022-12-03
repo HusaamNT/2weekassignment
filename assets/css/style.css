@@ -53,6 +53,12 @@ margin-top: 90px;
 ;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 @media screen and (max-width: 500px) {
   nav {
